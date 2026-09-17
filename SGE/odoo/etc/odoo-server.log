@@ -1,0 +1,518 @@
+2026-09-16 11:59:38,551 1 WARNING ? odoo.tools.config: option addons_path, invalid addons directory '/mnt/extra-addons', skipped 
+2026-09-16 11:59:38,551 1 WARNING ? odoo.tools.config: option addons_path, invalid addons directory '/mnt/extra-addons', skipped 
+2026-09-16 11:59:38,551 1 WARNING ? odoo.tools.config: missing --http-interface/http_interface, using 0.0.0.0 by default, will change to 127.0.0.1 in 20.0 
+2026-09-16 11:59:38,556 1 INFO ? odoo: Odoo version 19.0-20260908 
+2026-09-16 11:59:38,557 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2026-09-16 11:59:38,557 1 INFO ? odoo: addons paths: _NamespacePath(['/usr/lib/python3/dist-packages/odoo/addons', '/etc/odoo/addons/19.0', '/usr/lib/python3/dist-packages/addons']) 
+2026-09-16 11:59:38,557 1 INFO ? odoo: database: odoo@db:5432 
+2026-09-16 11:59:39,023 1 INFO ? odoo.service.server: Watching addons folder /usr/lib/python3/dist-packages/odoo/addons 
+2026-09-16 11:59:39,023 1 INFO ? odoo.service.server: Watching addons folder /etc/odoo/addons/19.0 
+2026-09-16 11:59:39,024 1 INFO ? odoo.service.server: Watching addons folder /usr/lib/python3/dist-packages/addons 
+2026-09-16 11:59:43,653 1 INFO ? odoo.service.server: AutoReload watcher running with watchdog 
+2026-09-16 11:59:43,684 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on 2f9ebc84be1a:8069 
+2026-09-16 11:59:58,734 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 11:59:58] "GET / HTTP/1.1" 303 - 1 0.033 0.031
+2026-09-16 11:59:58,789 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 11:59:58] "GET /odoo HTTP/1.1" 303 - 2 0.012 0.040
+2026-09-16 11:59:58,867 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 11:59:58] "GET /web/database/selector HTTP/1.1" 200 - 2 0.011 0.063
+2026-09-16 11:59:59,000 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 11:59:59] "GET /web/static/src/libs/fontawesome/css/font-awesome.css HTTP/1.1" 200 - 1 0.006 0.110
+2026-09-16 11:59:59,001 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 11:59:59] "GET /web/static/lib/bootstrap/dist/css/bootstrap.css HTTP/1.1" 200 - 1 0.004 0.101
+2026-09-16 11:59:59,003 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 11:59:59] "GET /web/static/lib/bootstrap/js/dist/util/index.js HTTP/1.1" 200 - 1 0.004 0.102
+2026-09-16 11:59:59,004 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 11:59:59] "GET /web/static/lib/bootstrap/js/dist/dom/event-handler.js HTTP/1.1" 200 - 1 0.004 0.101
+2026-09-16 11:59:59,007 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 11:59:59] "GET /web/static/lib/bootstrap/js/dist/dom/data.js HTTP/1.1" 200 - 1 0.003 0.106
+2026-09-16 11:59:59,008 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 11:59:59] "GET /web/static/lib/bootstrap/js/dist/dom/manipulator.js HTTP/1.1" 200 - 1 0.006 0.103
+2026-09-16 11:59:59,134 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 11:59:59] "GET /web/static/lib/bootstrap/js/dist/dom/selector-engine.js HTTP/1.1" 200 - 1 0.006 0.119
+2026-09-16 11:59:59,136 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 11:59:59] "GET /web/static/lib/bootstrap/js/dist/util/config.js HTTP/1.1" 200 - 1 0.005 0.120
+2026-09-16 11:59:59,136 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 11:59:59] "GET /web/static/lib/bootstrap/js/dist/util/component-functions.js HTTP/1.1" 200 - 1 0.004 0.120
+2026-09-16 11:59:59,136 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 11:59:59] "GET /web/static/lib/bootstrap/js/dist/util/backdrop.js HTTP/1.1" 200 - 1 0.006 0.117
+2026-09-16 11:59:59,137 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 11:59:59] "GET /web/static/lib/bootstrap/js/dist/util/focustrap.js HTTP/1.1" 200 - 1 0.005 0.118
+2026-09-16 11:59:59,139 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 11:59:59] "GET /web/static/lib/bootstrap/js/dist/util/scrollbar.js HTTP/1.1" 200 - 1 0.006 0.116
+2026-09-16 11:59:59,228 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 11:59:59] "GET /web/static/lib/bootstrap/js/dist/base-component.js HTTP/1.1" 200 - 1 0.010 0.078
+2026-09-16 11:59:59,230 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 11:59:59] "GET /web/static/src/public/database_manager.js HTTP/1.1" 200 - 1 0.004 0.082
+2026-09-16 11:59:59,230 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 11:59:59] "GET /web/static/lib/bootstrap/js/dist/modal.js HTTP/1.1" 200 - 1 0.004 0.084
+2026-09-16 11:59:59,234 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 11:59:59] "GET /web/static/img/logo2.png HTTP/1.1" 200 - 1 0.006 0.081
+2026-09-16 11:59:59,289 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 11:59:59] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 1 0.006 0.022
+2026-09-16 11:59:59,327 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 11:59:59] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - 1 0.007 0.021
+2026-09-16 12:01:52,654 1 WARNING ? odoo.tools.config: option addons_path, invalid addons directory '/mnt/extra-addons', skipped 
+2026-09-16 12:01:52,655 1 WARNING ? odoo.tools.config: option addons_path, invalid addons directory '/mnt/extra-addons', skipped 
+2026-09-16 12:01:52,655 1 WARNING ? odoo.tools.config: missing --http-interface/http_interface, using 0.0.0.0 by default, will change to 127.0.0.1 in 20.0 
+2026-09-16 12:01:52,657 1 INFO ? odoo: Odoo version 19.0-20260908 
+2026-09-16 12:01:52,658 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2026-09-16 12:01:52,658 1 INFO ? odoo: addons paths: _NamespacePath(['/usr/lib/python3/dist-packages/odoo/addons', '/etc/odoo/addons/19.0', '/usr/lib/python3/dist-packages/addons']) 
+2026-09-16 12:01:52,659 1 INFO ? odoo: database: odoo@db:5432 
+2026-09-16 12:01:52,872 1 INFO ? odoo.service.server: Watching addons folder /usr/lib/python3/dist-packages/odoo/addons 
+2026-09-16 12:01:52,872 1 INFO ? odoo.service.server: Watching addons folder /etc/odoo/addons/19.0 
+2026-09-16 12:01:52,873 1 INFO ? odoo.service.server: Watching addons folder /usr/lib/python3/dist-packages/addons 
+2026-09-16 12:01:53,562 1 INFO ? odoo.service.server: AutoReload watcher running with watchdog 
+2026-09-16 12:01:53,563 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on de915196a772:8069 
+2026-09-16 12:02:11,368 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:02:11] "GET /web/database/selector HTTP/1.1" 200 - 2 0.032 0.067
+2026-09-16 12:05:22,736 1 WARNING ? odoo.tools.config: option addons_path, invalid addons directory '/mnt/extra-addons', skipped 
+2026-09-16 12:05:22,736 1 WARNING ? odoo.tools.config: option addons_path, invalid addons directory '/mnt/extra-addons', skipped 
+2026-09-16 12:05:22,736 1 WARNING ? odoo.tools.config: missing --http-interface/http_interface, using 0.0.0.0 by default, will change to 127.0.0.1 in 20.0 
+2026-09-16 12:05:22,739 1 INFO ? odoo: Odoo version 19.0-20260908 
+2026-09-16 12:05:22,740 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2026-09-16 12:05:22,740 1 INFO ? odoo: addons paths: _NamespacePath(['/usr/lib/python3/dist-packages/odoo/addons', '/etc/odoo/addons/19.0', '/usr/lib/python3/dist-packages/addons']) 
+2026-09-16 12:05:22,741 1 INFO ? odoo: database: odoo@db:5432 
+2026-09-16 12:05:23,201 1 INFO ? odoo.service.server: Watching addons folder /usr/lib/python3/dist-packages/odoo/addons 
+2026-09-16 12:05:23,201 1 INFO ? odoo.service.server: Watching addons folder /etc/odoo/addons/19.0 
+2026-09-16 12:05:23,202 1 INFO ? odoo.service.server: Watching addons folder /usr/lib/python3/dist-packages/addons 
+2026-09-16 12:05:27,807 1 INFO ? odoo.service.server: AutoReload watcher running with watchdog 
+2026-09-16 12:05:27,809 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on acd350935dd7:8069 
+2026-09-16 12:05:29,110 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:05:29] "GET / HTTP/1.1" 303 - 1 0.030 0.032
+2026-09-16 12:05:29,164 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:05:29] "GET /odoo HTTP/1.1" 303 - 2 0.011 0.040
+2026-09-16 12:05:29,246 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:05:29] "GET /web/database/selector HTTP/1.1" 200 - 2 0.012 0.066
+2026-09-16 12:06:32,282 1 ERROR None odoo.addons.web.controllers.database: Database creation error. 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/database.py", line 81, in create
+    dispatch_rpc('db', 'create_database', [master_pwd, name, bool(post.get('demo')), lang, password, post['login'], country_code, post['phone']])
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 449, in dispatch_rpc
+    return dispatch(method, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/odoo/service/db.py", line 524, in dispatch
+    check_super(passwd)
+  File "/usr/lib/python3/dist-packages/odoo/service/db.py", line 63, in check_super
+    raise odoo.exceptions.AccessDenied()
+odoo.exceptions.AccessDenied: Access Denied
+2026-09-16 12:06:32,326 1 INFO None werkzeug: 172.19.0.1 - - [16/Sep/2026 12:06:32] "POST /web/database/create HTTP/1.1" 200 - 2 0.011 0.060
+2026-09-16 12:08:10,254 1 INFO ? odoo.service.server: Initiating shutdown 
+2026-09-16 12:08:10,255 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2026-09-16 12:08:11,272 1 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 2 connections  
+2026-09-16 12:08:11,275 1 INFO ? odoo.service.server: cron0 max age (0s) reached, releasing connection. 
+2026-09-16 12:08:11,284 1 INFO ? odoo.service.server: cron1 max age (0s) reached, releasing connection. 
+2026-09-16 12:08:28,497 1 WARNING ? odoo.tools.config: option addons_path, invalid addons directory '/mnt/extra-addons', skipped 
+2026-09-16 12:08:28,497 1 WARNING ? odoo.tools.config: option addons_path, invalid addons directory '/mnt/extra-addons', skipped 
+2026-09-16 12:08:28,498 1 WARNING ? odoo.tools.config: missing --http-interface/http_interface, using 0.0.0.0 by default, will change to 127.0.0.1 in 20.0 
+2026-09-16 12:08:28,500 1 INFO ? odoo: Odoo version 19.0-20260908 
+2026-09-16 12:08:28,501 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2026-09-16 12:08:28,502 1 INFO ? odoo: addons paths: _NamespacePath(['/usr/lib/python3/dist-packages/odoo/addons', '/etc/odoo/addons/19.0', '/usr/lib/python3/dist-packages/addons']) 
+2026-09-16 12:08:28,502 1 INFO ? odoo: database: odoo@db:5432 
+2026-09-16 12:08:28,915 1 INFO ? odoo.service.server: Watching addons folder /usr/lib/python3/dist-packages/odoo/addons 
+2026-09-16 12:08:28,916 1 INFO ? odoo.service.server: Watching addons folder /etc/odoo/addons/19.0 
+2026-09-16 12:08:28,916 1 INFO ? odoo.service.server: Watching addons folder /usr/lib/python3/dist-packages/addons 
+2026-09-16 12:08:33,461 1 INFO ? odoo.service.server: AutoReload watcher running with watchdog 
+2026-09-16 12:08:33,462 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on 97b802a418df:8069 
+2026-09-16 12:08:37,518 1 ERROR None odoo.addons.web.controllers.database: Database creation error. 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/database.py", line 81, in create
+    dispatch_rpc('db', 'create_database', [master_pwd, name, bool(post.get('demo')), lang, password, post['login'], country_code, post['phone']])
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 449, in dispatch_rpc
+    return dispatch(method, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/odoo/service/db.py", line 524, in dispatch
+    check_super(passwd)
+  File "/usr/lib/python3/dist-packages/odoo/service/db.py", line 63, in check_super
+    raise odoo.exceptions.AccessDenied()
+odoo.exceptions.AccessDenied: Access Denied
+2026-09-16 12:08:37,562 1 INFO None werkzeug: 172.19.0.1 - - [16/Sep/2026 12:08:37] "POST /web/database/create HTTP/1.1" 200 - 2 0.031 0.069
+2026-09-16 12:08:40,411 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:08:40] "GET / HTTP/1.1" 303 - 1 0.004 0.022
+2026-09-16 12:08:40,460 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:08:40] "GET /odoo HTTP/1.1" 303 - 2 0.008 0.037
+2026-09-16 12:08:40,534 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:08:40] "GET /web/database/selector HTTP/1.1" 200 - 2 0.009 0.061
+2026-09-16 12:09:19,811 1 ERROR None odoo.addons.web.controllers.database: Database creation error. 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/database.py", line 81, in create
+    dispatch_rpc('db', 'create_database', [master_pwd, name, bool(post.get('demo')), lang, password, post['login'], country_code, post['phone']])
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 449, in dispatch_rpc
+    return dispatch(method, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/odoo/service/db.py", line 524, in dispatch
+    check_super(passwd)
+  File "/usr/lib/python3/dist-packages/odoo/service/db.py", line 63, in check_super
+    raise odoo.exceptions.AccessDenied()
+odoo.exceptions.AccessDenied: Access Denied
+2026-09-16 12:09:19,853 1 INFO None werkzeug: 172.19.0.1 - - [16/Sep/2026 12:09:19] "POST /web/database/create HTTP/1.1" 200 - 2 0.015 0.058
+2026-09-16 12:10:46,966 1 INFO ? odoo.service.server: Initiating shutdown 
+2026-09-16 12:10:46,966 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2026-09-16 12:10:47,984 1 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 2 connections  
+2026-09-16 12:10:47,988 1 INFO ? odoo.service.server: cron0 max age (0s) reached, releasing connection. 
+2026-09-16 12:10:47,996 1 INFO ? odoo.service.server: cron1 max age (0s) reached, releasing connection. 
+2026-09-16 12:11:04,852 1 WARNING ? odoo.tools.config: option addons_path, invalid addons directory '/mnt/extra-addons', skipped 
+2026-09-16 12:11:04,853 1 WARNING ? odoo.tools.config: option addons_path, invalid addons directory '/mnt/extra-addons', skipped 
+2026-09-16 12:11:04,853 1 WARNING ? odoo.tools.config: missing --http-interface/http_interface, using 0.0.0.0 by default, will change to 127.0.0.1 in 20.0 
+2026-09-16 12:11:04,856 1 INFO ? odoo: Odoo version 19.0-20260908 
+2026-09-16 12:11:04,857 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2026-09-16 12:11:04,857 1 INFO ? odoo: addons paths: _NamespacePath(['/usr/lib/python3/dist-packages/odoo/addons', '/etc/odoo/addons/19.0', '/usr/lib/python3/dist-packages/addons']) 
+2026-09-16 12:11:04,857 1 INFO ? odoo: database: odoo@db:5432 
+2026-09-16 12:11:05,277 1 INFO ? odoo.service.server: Watching addons folder /usr/lib/python3/dist-packages/odoo/addons 
+2026-09-16 12:11:05,277 1 INFO ? odoo.service.server: Watching addons folder /etc/odoo/addons/19.0 
+2026-09-16 12:11:05,278 1 INFO ? odoo.service.server: Watching addons folder /usr/lib/python3/dist-packages/addons 
+2026-09-16 12:11:09,787 1 INFO ? odoo.service.server: AutoReload watcher running with watchdog 
+2026-09-16 12:11:09,796 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on 286a10811878:8069 
+2026-09-16 12:11:13,580 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:11:13] "GET / HTTP/1.1" 303 - 1 0.029 0.033
+2026-09-16 12:11:13,633 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:11:13] "GET /odoo HTTP/1.1" 303 - 2 0.009 0.039
+2026-09-16 12:11:13,705 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:11:13] "GET /web/database/selector HTTP/1.1" 200 - 2 0.010 0.059
+2026-09-16 12:11:35,016 1 INFO None odoo.service.db: Create database `postgres`. 
+2026-09-16 12:11:35,037 1 ERROR None odoo.addons.web.controllers.database: Database creation error. 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/database.py", line 81, in create
+    dispatch_rpc('db', 'create_database', [master_pwd, name, bool(post.get('demo')), lang, password, post['login'], country_code, post['phone']])
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 449, in dispatch_rpc
+    return dispatch(method, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/odoo/service/db.py", line 525, in dispatch
+    return g[exp_method_name](*params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/odoo/service/db.py", line 52, in if_db_mgt_enabled
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/odoo/service/db.py", line 180, in exp_create_database
+    _create_empty_database(db_name)
+  File "/usr/lib/python3/dist-packages/odoo/service/db.py", line 136, in _create_empty_database
+    raise DatabaseExists("database %r already exists!" % (name,))
+odoo.service.db.DatabaseExists: database 'postgres' already exists!
+2026-09-16 12:11:35,319 1 INFO None werkzeug: 172.19.0.1 - - [16/Sep/2026 12:11:35] "POST /web/database/create HTTP/1.1" 200 - 3 0.010 0.553
+2026-09-16 12:11:55,369 1 WARNING ? odoo.service.db: RESTORE DB: postgres already exists 
+2026-09-16 12:11:55,653 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:11:55] "POST /web/database/restore HTTP/1.1" 200 - 2 0.015 0.816
+2026-09-16 12:12:01,765 1 INFO ? odoo.service.server: Initiating shutdown 
+2026-09-16 12:12:01,766 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2026-09-16 12:12:02,836 1 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 2 connections  
+2026-09-16 12:12:02,839 1 INFO ? odoo.service.server: cron0 max age (0s) reached, releasing connection. 
+2026-09-16 12:12:02,847 1 INFO ? odoo.service.server: cron1 max age (0s) reached, releasing connection. 
+2026-09-16 12:12:28,503 1 WARNING ? odoo.tools.config: option addons_path, invalid addons directory '/mnt/extra-addons', skipped 
+2026-09-16 12:12:28,503 1 WARNING ? odoo.tools.config: option addons_path, invalid addons directory '/mnt/extra-addons', skipped 
+2026-09-16 12:12:28,503 1 WARNING ? odoo.tools.config: missing --http-interface/http_interface, using 0.0.0.0 by default, will change to 127.0.0.1 in 20.0 
+2026-09-16 12:12:28,506 1 INFO ? odoo: Odoo version 19.0-20260908 
+2026-09-16 12:12:28,506 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2026-09-16 12:12:28,507 1 INFO ? odoo: addons paths: _NamespacePath(['/usr/lib/python3/dist-packages/odoo/addons', '/etc/odoo/addons/19.0', '/usr/lib/python3/dist-packages/addons']) 
+2026-09-16 12:12:28,507 1 INFO ? odoo: database: odoo@db:5432 
+2026-09-16 12:12:28,957 1 INFO ? odoo.service.server: Watching addons folder /usr/lib/python3/dist-packages/odoo/addons 
+2026-09-16 12:12:28,958 1 INFO ? odoo.service.server: Watching addons folder /etc/odoo/addons/19.0 
+2026-09-16 12:12:28,958 1 INFO ? odoo.service.server: Watching addons folder /usr/lib/python3/dist-packages/addons 
+2026-09-16 12:12:33,480 1 INFO ? odoo.service.server: AutoReload watcher running with watchdog 
+2026-09-16 12:12:33,486 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on f47e44bae0d2:8069 
+2026-09-16 12:12:35,080 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:12:35] "GET / HTTP/1.1" 303 - 1 0.029 0.033
+2026-09-16 12:12:35,134 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:12:35] "GET /odoo HTTP/1.1" 303 - 2 0.010 0.041
+2026-09-16 12:12:35,208 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:12:35] "GET /web/database/selector HTTP/1.1" 200 - 2 0.009 0.058
+2026-09-16 12:12:59,253 1 INFO None odoo.service.db: Create database `postgres`. 
+2026-09-16 12:12:59,273 1 ERROR None odoo.addons.web.controllers.database: Database creation error. 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/database.py", line 81, in create
+    dispatch_rpc('db', 'create_database', [master_pwd, name, bool(post.get('demo')), lang, password, post['login'], country_code, post['phone']])
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 449, in dispatch_rpc
+    return dispatch(method, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/odoo/service/db.py", line 525, in dispatch
+    return g[exp_method_name](*params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/odoo/service/db.py", line 52, in if_db_mgt_enabled
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/odoo/service/db.py", line 180, in exp_create_database
+    _create_empty_database(db_name)
+  File "/usr/lib/python3/dist-packages/odoo/service/db.py", line 136, in _create_empty_database
+    raise DatabaseExists("database %r already exists!" % (name,))
+odoo.service.db.DatabaseExists: database 'postgres' already exists!
+2026-09-16 12:12:59,552 1 INFO None werkzeug: 172.19.0.1 - - [16/Sep/2026 12:12:59] "POST /web/database/create HTTP/1.1" 200 - 3 0.010 0.547
+2026-09-16 12:13:34,541 1 INFO None odoo.service.db: Create database `hola`. 
+2026-09-16 12:13:35,692 1 INFO None odoo.modules.loading: Initializing database hola 
+2026-09-16 12:13:38,099 1 INFO None odoo.modules.loading: loading 1 modules... 
+2026-09-16 12:13:38,100 1 INFO None odoo.modules.loading: Loading module base (1/1) 
+2026-09-16 12:13:38,116 1 INFO None odoo.registry: module base: creating or updating database tables 
+2026-09-16 12:13:38,936 1 INFO None odoo.models: Prepare computation of ir.module.module.menus_by_module 
+2026-09-16 12:13:38,936 1 INFO None odoo.models: Prepare computation of ir.module.module.reports_by_module 
+2026-09-16 12:13:38,937 1 INFO None odoo.models: Prepare computation of ir.module.module.views_by_module 
+2026-09-16 12:13:39,182 1 INFO None odoo.models: Prepare computation of res.partner.user_id 
+2026-09-16 12:13:39,183 1 INFO None odoo.models: Prepare computation of res.partner.commercial_partner_id 
+2026-09-16 12:13:39,183 1 INFO None odoo.models: Prepare computation of res.partner.complete_name 
+2026-09-16 12:13:39,184 1 INFO None odoo.models: Prepare computation of res.partner.lang 
+2026-09-16 12:13:39,184 1 INFO None odoo.models: Prepare computation of res.partner.company_registry 
+2026-09-16 12:13:39,184 1 INFO None odoo.models: Prepare computation of res.partner.commercial_company_name 
+2026-09-16 12:13:39,185 1 INFO None odoo.models: Prepare computation of res.partner.properties 
+2026-09-16 12:13:39,185 1 INFO None odoo.models: Prepare computation of res.partner.partner_share 
+2026-09-16 12:13:39,259 1 INFO None odoo.models: Prepare computation of res.currency.decimal_places 
+2026-09-16 12:13:39,309 1 INFO None odoo.models: Prepare computation of res.company.uses_default_logo 
+2026-09-16 12:13:39,309 1 INFO None odoo.models: Prepare computation of res.company.logo_web 
+2026-09-16 12:13:39,314 1 INFO None odoo.models: Computing parent_path for table res_company... 
+2026-09-16 12:13:39,375 1 INFO None odoo.models: Prepare computation of res.users.signature 
+2026-09-16 12:13:39,375 1 INFO None odoo.models: Prepare computation of res.users.share 
+2026-09-16 12:13:41,648 1 INFO None odoo.modules.loading: loading base/data/res_bank.xml 
+2026-09-16 12:13:41,657 1 INFO None odoo.modules.loading: loading base/data/res.lang.csv 
+2026-09-16 12:13:41,688 1 INFO None odoo.modules.loading: loading base/data/res_lang_data.xml 
+2026-09-16 12:13:41,782 1 INFO None odoo.modules.loading: loading base/data/res_partner_data.xml 
+2026-09-16 12:13:41,846 1 INFO None odoo.modules.loading: loading base/data/res_currency_data.xml 
+2026-09-16 12:13:42,241 1 INFO None odoo.modules.loading: loading base/data/res_company_data.xml 
+2026-09-16 12:13:42,250 1 INFO None odoo.modules.loading: loading base/data/res_users_data.xml 
+2026-09-16 12:13:42,774 1 INFO None odoo.modules.loading: loading base/data/report_paperformat_data.xml 
+2026-09-16 12:13:42,782 1 INFO None odoo.modules.loading: loading base/data/res_country_data.xml 
+2026-09-16 12:13:43,244 1 INFO None odoo.modules.loading: loading base/data/ir_demo_data.xml 
+2026-09-16 12:13:43,259 1 INFO None odoo.modules.loading: loading base/security/base_groups.xml 
+2026-09-16 12:13:43,490 1 INFO None odoo.modules.loading: loading base/security/base_security.xml 
+2026-09-16 12:13:43,630 1 INFO None odoo.modules.loading: loading base/wizard/wizard_ir_model_menu_create_views.xml 
+2026-09-16 12:13:43,642 1 INFO None odoo.modules.loading: loading base/views/base_menus.xml 
+2026-09-16 12:13:43,771 1 INFO None odoo.modules.loading: loading base/views/decimal_precision_views.xml 
+2026-09-16 12:13:43,787 1 INFO None odoo.modules.loading: loading base/views/res_config_views.xml 
+2026-09-16 12:13:43,794 1 INFO None odoo.modules.loading: loading base/data/res.country.state.csv 
+2026-09-16 12:13:44,291 1 INFO None odoo.modules.loading: loading base/views/ir_actions_views.xml 
+2026-09-16 12:13:44,429 1 INFO None odoo.modules.loading: loading base/views/ir_asset_views.xml 
+2026-09-16 12:13:44,443 1 INFO None odoo.modules.loading: loading base/views/ir_config_parameter_views.xml 
+2026-09-16 12:13:44,458 1 INFO None odoo.modules.loading: loading base/views/ir_cron_views.xml 
+2026-09-16 12:13:44,482 1 INFO None odoo.modules.loading: loading base/views/ir_cron_trigger_views.xml 
+2026-09-16 12:13:44,495 1 INFO None odoo.modules.loading: loading base/views/ir_filters_views.xml 
+2026-09-16 12:13:44,511 1 INFO None odoo.modules.loading: loading base/views/ir_mail_server_views.xml 
+2026-09-16 12:13:44,530 1 INFO None odoo.modules.loading: loading base/views/ir_model_views.xml 
+2026-09-16 12:13:44,635 1 INFO None odoo.modules.loading: loading base/views/ir_attachment_views.xml 
+2026-09-16 12:13:44,650 1 INFO None odoo.modules.loading: loading base/views/ir_rule_views.xml 
+2026-09-16 12:13:44,666 1 INFO None odoo.modules.loading: loading base/views/ir_sequence_views.xml 
+2026-09-16 12:13:44,681 1 INFO None odoo.modules.loading: loading base/views/ir_ui_menu_views.xml 
+2026-09-16 12:13:44,695 1 INFO None odoo.modules.loading: loading base/views/ir_ui_view_views.xml 
+2026-09-16 12:13:44,729 1 INFO None odoo.modules.loading: loading base/views/ir_default_views.xml 
+2026-09-16 12:13:44,743 1 INFO None odoo.modules.loading: loading base/data/ir_config_parameter_data.xml 
+2026-09-16 12:13:44,746 1 INFO None odoo.modules.loading: loading base/data/ir_cron_data.xml 
+2026-09-16 12:13:44,756 1 INFO None odoo.modules.loading: loading base/report/ir_model_report.xml 
+2026-09-16 12:13:44,761 1 INFO None odoo.modules.loading: loading base/report/ir_model_templates.xml 
+2026-09-16 12:13:44,767 1 INFO None odoo.modules.loading: loading base/views/ir_logging_views.xml 
+2026-09-16 12:13:44,782 1 INFO None odoo.modules.loading: loading base/views/ir_qweb_widget_templates.xml 
+2026-09-16 12:13:44,791 1 INFO None odoo.modules.loading: loading base/views/ir_module_views.xml 
+2026-09-16 12:13:44,831 1 INFO None odoo.modules.loading: loading base/data/ir_module_category_data.xml 
+2026-09-16 12:13:44,859 1 INFO None odoo.modules.loading: loading base/data/ir_module_module.xml 
+2026-09-16 12:13:44,915 1 INFO None odoo.modules.loading: loading base/report/ir_module_reports.xml 
+2026-09-16 12:13:44,918 1 INFO None odoo.modules.loading: loading base/report/ir_module_report_templates.xml 
+2026-09-16 12:13:44,923 1 INFO None odoo.modules.loading: loading base/wizard/base_module_update_views.xml 
+2026-09-16 12:13:44,933 1 INFO None odoo.modules.loading: loading base/wizard/base_language_install_views.xml 
+2026-09-16 12:13:44,945 1 INFO None odoo.modules.loading: loading base/wizard/base_import_language_views.xml 
+2026-09-16 12:13:44,954 1 INFO None odoo.modules.loading: loading base/wizard/base_module_upgrade_views.xml 
+2026-09-16 12:13:44,966 1 INFO None odoo.modules.loading: loading base/wizard/base_module_uninstall_views.xml 
+2026-09-16 12:13:44,973 1 INFO None odoo.modules.loading: loading base/wizard/base_export_language_views.xml 
+2026-09-16 12:13:44,983 1 INFO None odoo.modules.loading: loading base/wizard/base_partner_merge_views.xml 
+2026-09-16 12:13:44,995 1 INFO None odoo.modules.loading: loading base/data/ir_demo_failure_data.xml 
+2026-09-16 12:13:45,006 1 INFO None odoo.modules.loading: loading base/views/ir_profile_views.xml 
+2026-09-16 12:13:45,023 1 INFO None odoo.modules.loading: loading base/views/res_company_views.xml 
+2026-09-16 12:13:45,039 1 INFO None odoo.modules.loading: loading base/views/res_lang_views.xml 
+2026-09-16 12:13:45,057 1 INFO None odoo.modules.loading: loading base/views/res_partner_views.xml 
+2026-09-16 12:13:45,123 1 INFO None odoo.modules.loading: loading base/views/res_bank_views.xml 
+2026-09-16 12:13:45,146 1 INFO None odoo.modules.loading: loading base/views/res_country_views.xml 
+2026-09-16 12:13:45,173 1 INFO None odoo.modules.loading: loading base/views/res_currency_views.xml 
+2026-09-16 12:13:45,200 1 INFO None odoo.modules.loading: loading base/views/res_groups_views.xml 
+2026-09-16 12:13:45,230 1 INFO None odoo.modules.loading: loading base/views/res_users_views.xml 
+2026-09-16 12:13:45,295 1 INFO None odoo.modules.loading: loading base/views/res_users_apikeys_views.xml 
+2026-09-16 12:13:45,300 1 INFO None odoo.modules.loading: loading base/views/res_device_views.xml 
+2026-09-16 12:13:45,315 1 INFO None odoo.modules.loading: loading base/views/res_users_identitycheck_views.xml 
+2026-09-16 12:13:45,320 1 INFO None odoo.modules.loading: loading base/views/res_config_settings_views.xml 
+2026-09-16 12:13:45,327 1 INFO None odoo.modules.loading: loading base/views/report_paperformat_views.xml 
+2026-09-16 12:13:45,345 1 INFO None odoo.modules.loading: loading base/security/ir.model.access.csv 
+2026-09-16 12:13:45,405 1 INFO None odoo.addons.base.models.ir_module: module base: loading translation file /usr/lib/python3/dist-packages/odoo/addons/base/i18n/es.po for language es_ES 
+2026-09-16 12:13:46,004 1 INFO None odoo.modules.loading: Module base loaded in 7.90s, 8492 queries (+8492 other) 
+2026-09-16 12:13:46,005 1 INFO None odoo.modules.loading: 1 modules loaded in 7.90s, 8492 queries (+8492 extra) 
+2026-09-16 12:13:46,166 1 INFO None odoo.modules.loading: updating modules list 
+2026-09-16 12:13:46,170 1 INFO None odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2026-09-16 12:13:47,489 1 INFO None odoo.modules.loading: loading 14 modules... 
+2026-09-16 12:13:47,489 1 INFO None odoo.modules.loading: Loading module rpc (2/14) 
+2026-09-16 12:13:47,503 1 INFO None odoo.addons.base.models.ir_module: module rpc: no translation for language es_ES 
+2026-09-16 12:13:47,507 1 INFO None odoo.modules.loading: Module rpc loaded in 0.02s, 9 queries (+9 other) 
+2026-09-16 12:13:47,508 1 INFO None odoo.modules.loading: Loading module web (3/14) 
+2026-09-16 12:13:47,531 1 INFO None odoo.registry: module web: creating or updating database tables 
+2026-09-16 12:13:47,932 1 INFO None odoo.modules.loading: loading web/security/ir.model.access.csv 
+2026-09-16 12:13:47,948 1 INFO None odoo.modules.loading: loading web/security/web_security.xml 
+2026-09-16 12:13:47,962 1 INFO None odoo.modules.loading: loading web/views/webclient_templates.xml 
+2026-09-16 12:13:48,004 1 INFO None odoo.modules.loading: loading web/views/report_templates.xml 
+2026-09-16 12:13:48,077 1 INFO None odoo.modules.loading: loading web/views/base_document_layout_views.xml 
+2026-09-16 12:13:48,091 1 INFO None odoo.modules.loading: loading web/views/partner_view.xml 
+2026-09-16 12:13:48,100 1 INFO None odoo.modules.loading: loading web/views/speedscope_template.xml 
+2026-09-16 12:13:48,104 1 INFO None odoo.modules.loading: loading web/views/memory_template.xml 
+2026-09-16 12:13:48,109 1 INFO None odoo.modules.loading: loading web/views/speedscope_config_wizard.xml 
+2026-09-16 12:13:48,114 1 INFO None odoo.modules.loading: loading web/views/neutralize_views.xml 
+2026-09-16 12:13:48,120 1 INFO None odoo.modules.loading: loading web/views/ir_ui_view_views.xml 
+2026-09-16 12:13:48,127 1 INFO None odoo.modules.loading: loading web/data/ir_attachment.xml 
+2026-09-16 12:13:48,131 1 INFO None odoo.modules.loading: loading web/data/report_layout.xml 
+2026-09-16 12:13:48,179 1 INFO None odoo.addons.base.models.ir_module: module web: loading translation file /usr/lib/python3/dist-packages/odoo/addons/web/i18n/es.po for language es_ES 
+2026-09-16 12:13:48,335 1 INFO None odoo.modules.loading: Module web loaded in 0.83s, 1244 queries (+1244 other) 
+2026-09-16 12:13:48,335 1 INFO None odoo.modules.loading: Loading module api_doc (4/14) 
+2026-09-16 12:13:48,347 1 INFO None odoo.registry: module api_doc: creating or updating database tables 
+2026-09-16 12:13:48,357 1 INFO None odoo.modules.loading: loading api_doc/security/res_groups.xml 
+2026-09-16 12:13:48,381 1 INFO None odoo.modules.loading: loading api_doc/views/docclient.xml 
+2026-09-16 12:13:48,387 1 INFO None odoo.addons.base.models.ir_module: module api_doc: no translation for language es_ES 
+2026-09-16 12:13:48,395 1 INFO None odoo.modules.loading: Module api_doc loaded in 0.06s, 63 queries (+63 other) 
+2026-09-16 12:13:48,395 1 INFO None odoo.modules.loading: Loading module auth_totp (5/14) 
+2026-09-16 12:13:48,420 1 INFO None odoo.registry: module auth_totp: creating or updating database tables 
+2026-09-16 12:13:48,518 1 INFO None odoo.modules.loading: loading auth_totp/security/security.xml 
+2026-09-16 12:13:48,536 1 INFO None odoo.modules.loading: loading auth_totp/security/ir.model.access.csv 
+2026-09-16 12:13:48,543 1 INFO None odoo.modules.loading: loading auth_totp/data/ir_action_data.xml 
+2026-09-16 12:13:48,551 1 INFO None odoo.modules.loading: loading auth_totp/views/res_users_views.xml 
+2026-09-16 12:13:48,569 1 INFO None odoo.modules.loading: loading auth_totp/views/templates.xml 
+2026-09-16 12:13:48,574 1 INFO None odoo.modules.loading: loading auth_totp/wizard/auth_totp_wizard_views.xml 
+2026-09-16 12:13:48,582 1 INFO None odoo.addons.base.models.ir_module: module auth_totp: loading translation file /usr/lib/python3/dist-packages/odoo/addons/auth_totp/i18n/es.po for language es_ES 
+2026-09-16 12:13:48,601 1 INFO None odoo.modules.loading: Module auth_totp loaded in 0.21s, 226 queries (+226 other) 
+2026-09-16 12:13:48,601 1 INFO None odoo.modules.loading: Loading module base_import (6/14) 
+2026-09-16 12:13:48,629 1 INFO None odoo.registry: module base_import: creating or updating database tables 
+2026-09-16 12:13:48,957 1 INFO None odoo.modules.loading: loading base_import/security/ir.model.access.csv 
+2026-09-16 12:13:48,965 1 INFO None odoo.addons.base.models.ir_module: module base_import: loading translation file /usr/lib/python3/dist-packages/odoo/addons/base_import/i18n/es.po for language es_ES 
+2026-09-16 12:13:48,978 1 INFO None odoo.modules.loading: Module base_import loaded in 0.38s, 960 queries (+960 other) 
+2026-09-16 12:13:48,979 1 INFO None odoo.modules.loading: Loading module base_import_module (7/14) 
+2026-09-16 12:13:48,991 1 INFO None odoo.registry: module base_import_module: creating or updating database tables 
+2026-09-16 12:13:49,062 1 INFO None odoo.modules.loading: loading base_import_module/security/ir.model.access.csv 
+2026-09-16 12:13:49,067 1 INFO None odoo.modules.loading: loading base_import_module/views/base_import_module_view.xml 
+2026-09-16 12:13:49,086 1 INFO None odoo.modules.loading: loading base_import_module/views/ir_module_views.xml 
+2026-09-16 12:13:49,111 1 INFO None odoo.addons.base.models.ir_module: module base_import_module: loading translation file /usr/lib/python3/dist-packages/odoo/addons/base_import_module/i18n/es.po for language es_ES 
+2026-09-16 12:13:49,127 1 INFO None odoo.modules.loading: Module base_import_module loaded in 0.15s, 183 queries (+183 other) 
+2026-09-16 12:13:49,128 1 INFO None odoo.modules.loading: Loading module base_setup (8/14) 
+2026-09-16 12:13:49,140 1 INFO None odoo.registry: module base_setup: creating or updating database tables 
+2026-09-16 12:13:49,176 1 INFO None odoo.modules.loading: loading base_setup/data/base_setup_data.xml 
+2026-09-16 12:13:49,181 1 INFO None odoo.modules.loading: loading base_setup/views/res_config_settings_views.xml 
+2026-09-16 12:13:49,207 1 INFO None odoo.modules.loading: loading base_setup/views/res_partner_views.xml 
+2026-09-16 12:13:49,218 1 INFO None odoo.addons.base.models.ir_module: module base_setup: loading translation file /usr/lib/python3/dist-packages/odoo/addons/base_setup/i18n/es.po for language es_ES 
+2026-09-16 12:13:49,240 1 INFO None odoo.modules.loading: Module base_setup loaded in 0.11s, 162 queries (+162 other) 
+2026-09-16 12:13:49,240 1 INFO None odoo.modules.loading: Loading module bus (9/14) 
+2026-09-16 12:13:49,262 1 INFO None odoo.registry: module bus: creating or updating database tables 
+2026-09-16 12:13:49,342 1 INFO None odoo.modules.loading: loading bus/security/ir.model.access.csv 
+2026-09-16 12:13:49,349 1 INFO None odoo.addons.base.models.ir_module: module bus: loading translation file /usr/lib/python3/dist-packages/odoo/addons/bus/i18n/es.po for language es_ES 
+2026-09-16 12:13:49,357 1 INFO None odoo.modules.loading: Module bus loaded in 0.12s, 162 queries (+162 other) 
+2026-09-16 12:13:49,358 1 INFO None odoo.modules.loading: Loading module web_tour (10/14) 
+2026-09-16 12:13:49,368 1 INFO None odoo.registry: module web_tour: creating or updating database tables 
+2026-09-16 12:13:49,372 1 INFO None odoo.models: Prepare computation of res.users.tour_enabled 
+2026-09-16 12:13:49,475 1 INFO None odoo.modules.loading: loading web_tour/security/ir.model.access.csv 
+2026-09-16 12:13:49,481 1 INFO None odoo.modules.loading: loading web_tour/views/tour_views.xml 
+2026-09-16 12:13:49,507 1 INFO None odoo.addons.base.models.ir_module: module web_tour: loading translation file /usr/lib/python3/dist-packages/odoo/addons/web_tour/i18n/es.po for language es_ES 
+2026-09-16 12:13:49,527 1 INFO None odoo.modules.loading: Module web_tour loaded in 0.17s, 192 queries (+192 other) 
+2026-09-16 12:13:49,528 1 INFO None odoo.modules.loading: Loading module auth_passkey (11/14) 
+2026-09-16 12:13:49,594 1 INFO None odoo.registry: module auth_passkey: creating or updating database tables 
+2026-09-16 12:13:49,681 1 INFO None odoo.modules.loading: loading auth_passkey/views/auth_passkey_key_views.xml 
+2026-09-16 12:13:49,698 1 INFO None odoo.modules.loading: loading auth_passkey/views/auth_passkey_login_templates.xml 
+2026-09-16 12:13:49,708 1 INFO None odoo.modules.loading: loading auth_passkey/views/res_users_identitycheck_views.xml 
+2026-09-16 12:13:49,716 1 INFO None odoo.modules.loading: loading auth_passkey/views/res_users_views.xml 
+2026-09-16 12:13:49,732 1 INFO None odoo.modules.loading: loading auth_passkey/security/ir.model.access.csv 
+2026-09-16 12:13:49,739 1 INFO None odoo.modules.loading: loading auth_passkey/security/security.xml 
+2026-09-16 12:13:49,758 1 INFO None odoo.addons.base.models.ir_module: module auth_passkey: loading translation file /usr/lib/python3/dist-packages/odoo/addons/auth_passkey/i18n/es.po for language es_ES 
+2026-09-16 12:13:49,775 1 INFO None odoo.modules.loading: Module auth_passkey loaded in 0.25s, 226 queries (+226 other) 
+2026-09-16 12:13:49,776 1 INFO None odoo.modules.loading: Loading module html_editor (12/14) 
+2026-09-16 12:13:50,021 1 INFO None odoo.registry: module html_editor: creating or updating database tables 
+2026-09-16 12:13:50,391 1 INFO None odoo.modules.loading: loading html_editor/security/ir.model.access.csv 
+2026-09-16 12:13:50,400 1 INFO None odoo.addons.base.models.ir_module: module html_editor: loading translation file /usr/lib/python3/dist-packages/odoo/addons/html_editor/i18n/es.po for language es_ES 
+2026-09-16 12:13:50,421 1 INFO None odoo.modules.loading: Module html_editor loaded in 0.64s, 1038 queries (+1038 other) 
+2026-09-16 12:13:50,421 1 INFO None odoo.modules.loading: Loading module iap (13/14) 
+2026-09-16 12:13:50,427 1 INFO None odoo.registry: module iap: creating or updating database tables 
+2026-09-16 12:13:50,532 1 INFO None odoo.modules.loading: loading iap/data/services.xml 
+2026-09-16 12:13:50,538 1 INFO None odoo.modules.loading: loading iap/security/ir.model.access.csv 
+2026-09-16 12:13:50,546 1 INFO None odoo.modules.loading: loading iap/security/ir_rule.xml 
+2026-09-16 12:13:50,552 1 INFO None odoo.modules.loading: loading iap/views/iap_views.xml 
+2026-09-16 12:13:50,568 1 INFO None odoo.modules.loading: loading iap/views/res_config_settings.xml 
+2026-09-16 12:13:50,581 1 INFO None odoo.addons.base.models.ir_module: module iap: loading translation file /usr/lib/python3/dist-packages/odoo/addons/iap/i18n/es.po for language es_ES 
+2026-09-16 12:13:50,599 1 INFO None odoo.modules.loading: Module iap loaded in 0.18s, 196 queries (+196 other) 
+2026-09-16 12:13:50,599 1 INFO None odoo.modules.loading: Loading module web_unsplash (14/14) 
+2026-09-16 12:13:50,614 1 INFO None odoo.registry: module web_unsplash: creating or updating database tables 
+2026-09-16 12:13:50,637 1 INFO None odoo.modules.loading: loading web_unsplash/views/res_config_settings_view.xml 
+2026-09-16 12:13:50,661 1 INFO None odoo.addons.base.models.ir_module: module web_unsplash: loading translation file /usr/lib/python3/dist-packages/odoo/addons/web_unsplash/i18n/es.po for language es_ES 
+2026-09-16 12:13:50,671 1 INFO None odoo.modules.loading: Module web_unsplash loaded in 0.07s, 99 queries (+99 other) 
+2026-09-16 12:13:50,672 1 INFO None odoo.modules.loading: 14 modules loaded in 3.18s, 4760 queries (+4760 extra) 
+2026-09-16 12:13:50,846 1 INFO None odoo.modules.loading: Modules loaded. 
+2026-09-16 12:13:50,851 1 INFO None odoo.registry: Registry changed, signaling through the database 
+2026-09-16 12:13:50,855 1 INFO None odoo.registry: Registry loaded in 15.296s 
+2026-09-16 12:13:50,859 1 INFO None odoo.addons.base.models.ir_module: module base: loading translation file /usr/lib/python3/dist-packages/odoo/addons/base/i18n/es.po for language es_ES 
+2026-09-16 12:13:51,115 1 INFO None odoo.addons.base.models.ir_module: module web: loading translation file /usr/lib/python3/dist-packages/odoo/addons/web/i18n/es.po for language es_ES 
+2026-09-16 12:13:51,215 1 INFO None odoo.addons.base.models.ir_module: module base_setup: loading translation file /usr/lib/python3/dist-packages/odoo/addons/base_setup/i18n/es.po for language es_ES 
+2026-09-16 12:13:51,222 1 INFO None odoo.addons.base.models.ir_module: module auth_passkey: loading translation file /usr/lib/python3/dist-packages/odoo/addons/auth_passkey/i18n/es.po for language es_ES 
+2026-09-16 12:13:51,228 1 INFO None odoo.addons.base.models.ir_module: module auth_totp: loading translation file /usr/lib/python3/dist-packages/odoo/addons/auth_totp/i18n/es.po for language es_ES 
+2026-09-16 12:13:51,233 1 INFO None odoo.addons.base.models.ir_module: module base_import: loading translation file /usr/lib/python3/dist-packages/odoo/addons/base_import/i18n/es.po for language es_ES 
+2026-09-16 12:13:51,239 1 INFO None odoo.addons.base.models.ir_module: module base_import_module: loading translation file /usr/lib/python3/dist-packages/odoo/addons/base_import_module/i18n/es.po for language es_ES 
+2026-09-16 12:13:51,245 1 INFO None odoo.addons.base.models.ir_module: module bus: loading translation file /usr/lib/python3/dist-packages/odoo/addons/bus/i18n/es.po for language es_ES 
+2026-09-16 12:13:51,247 1 INFO None odoo.addons.base.models.ir_module: module html_editor: loading translation file /usr/lib/python3/dist-packages/odoo/addons/html_editor/i18n/es.po for language es_ES 
+2026-09-16 12:13:51,261 1 INFO None odoo.addons.base.models.ir_module: module iap: loading translation file /usr/lib/python3/dist-packages/odoo/addons/iap/i18n/es.po for language es_ES 
+2026-09-16 12:13:51,266 1 INFO None odoo.addons.base.models.ir_module: module web_tour: loading translation file /usr/lib/python3/dist-packages/odoo/addons/web_tour/i18n/es.po for language es_ES 
+2026-09-16 12:13:51,269 1 INFO None odoo.addons.base.models.ir_module: module web_unsplash: loading translation file /usr/lib/python3/dist-packages/odoo/addons/web_unsplash/i18n/es.po for language es_ES 
+2026-09-16 12:13:52,174 1 INFO None odoo.addons.base.models.res_users: Login successful for login:olga.moreno@thepower.education from 172.19.0.1 
+2026-09-16 12:13:52,203 1 INFO None werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:52] "POST /web/database/create HTTP/1.1" 303 - 20218 9.997 8.161
+2026-09-16 12:13:52,220 1 INFO hola odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-09-16 12:13:52,234 1 INFO hola odoo.addons.base.models.res_device: User 2 inserts device log (9gg7A0MvbE04IStlY0tikUQMy4BvE8JFD5evaJAlOR) 
+2026-09-16 12:13:52,859 1 INFO hola werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:52] "GET /odoo HTTP/1.1" 200 - 55 0.037 0.616
+2026-09-16 12:13:52,965 1 INFO hola werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:52] "GET /web/webclient/load_menus HTTP/1.1" 200 - 12 0.005 0.055
+2026-09-16 12:13:53,008 1 INFO hola werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:53] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 6 0.059 0.043
+2026-09-16 12:13:53,902 1 INFO hola odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/b5ef2bc/web.assets_web.min.css (id:14) 
+2026-09-16 12:13:53,949 1 INFO hola werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:53] "GET /web/assets/b5ef2bc/web.assets_web.min.css HTTP/1.1" 200 - 15 0.081 0.964
+2026-09-16 12:13:55,040 1 INFO hola odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/88d4393/web.assets_web_print.min.css (id:15) 
+2026-09-16 12:13:55,051 1 INFO hola werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:55] "GET /web/assets/88d4393/web.assets_web_print.min.css HTTP/1.1" 200 - 8 0.031 0.992
+2026-09-16 12:13:55,599 1 INFO hola odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/89060dc/web.assets_web.min.js (id:16) 
+2026-09-16 12:13:56,022 1 INFO hola werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:56] "GET /web/assets/89060dc/web.assets_web.min.js HTTP/1.1" 200 - 11 0.025 3.094
+2026-09-16 12:13:56,218 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:56] "GET /web/static/img/odoo-icon-192x192.png HTTP/1.1" 200 - 0 0.000 0.013
+2026-09-16 12:13:56,590 1 INFO hola werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:56] "GET /web/webclient/translations?hash=&lang=es_ES HTTP/1.1" 200 - 2 0.001 0.388
+2026-09-16 12:13:56,609 1 INFO hola werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:56] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.004
+2026-09-16 12:13:56,647 1 INFO hola odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/cbb56d9/bus.websocket_worker_assets.min.js (id:17) 
+2026-09-16 12:13:56,677 1 INFO hola werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:56] "GET /odoo/offline HTTP/1.1" 200 - 6 0.015 0.040
+2026-09-16 12:13:56,678 1 INFO hola werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:56] "GET /odoo HTTP/1.1" 200 - 9 0.015 0.045
+2026-09-16 12:13:56,678 1 INFO hola werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:56] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 15 0.022 0.026
+2026-09-16 12:13:56,678 1 INFO hola werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:56] "GET /bus/websocket_worker_bundle?v=19.0-2 HTTP/1.1" 200 - 8 0.007 0.069
+2026-09-16 12:13:56,688 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:56] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 200 - 0 0.000 0.006
+2026-09-16 12:13:56,705 1 INFO hola werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:56] "POST /web/action/load HTTP/1.1" 200 - 10 0.044 0.031
+2026-09-16 12:13:56,705 1 INFO hola werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:56] "GET /web/image/res.partner/3/avatar_128?unique=1789553630000 HTTP/1.1" 200 - 7 0.023 0.051
+2026-09-16 12:13:56,707 1 INFO hola werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:56] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 1 0.001 0.014
+2026-09-16 12:13:56,765 1 INFO hola werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:56] "POST /web/dataset/call_kw/ir.module.module/get_views#ir.module.module.get_views HTTP/1.1" 200 - 45 0.021 0.023
+2026-09-16 12:13:56,779 1 INFO hola werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:56] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.005
+2026-09-16 12:13:56,796 1 INFO hola werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:56] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.006
+2026-09-16 12:13:56,812 1 INFO hola werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:56] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 42 0.026 0.012
+2026-09-16 12:13:56,844 1 INFO hola werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:56] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 3 0.002 0.065
+2026-09-16 12:13:56,875 1 INFO hola werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:56] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.005
+2026-09-16 12:13:56,909 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:56] "GET /sale_management/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.009
+2026-09-16 12:13:56,909 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:56] "GET /website/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2026-09-16 12:13:56,910 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:56] "GET /crm/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2026-09-16 12:13:56,910 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:56] "GET /pos_restaurant/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.008
+2026-09-16 12:13:56,910 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:56] "GET /account/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.008
+2026-09-16 12:13:56,911 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:56] "GET /base/static/img/icons/mrp_workorder.png HTTP/1.1" 200 - 0 0.000 0.008
+2026-09-16 12:13:56,923 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:56] "GET /hr_expense/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.010
+2026-09-16 12:13:56,924 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:56] "GET /project/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.008
+2026-09-16 12:13:56,926 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:56] "GET /base/static/img/icons/web_studio.png HTTP/1.1" 200 - 0 0.000 0.008
+2026-09-16 12:13:56,927 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:56] "GET /mass_mailing/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.010
+2026-09-16 12:13:56,928 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:56] "GET /purchase/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.009
+2026-09-16 12:13:56,931 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:56] "GET /stock/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.008
+2026-09-16 12:13:56,933 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:56] "GET /base/static/img/icons/account_accountant.png HTTP/1.1" 200 - 0 0.000 0.005
+2026-09-16 12:13:56,968 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:56] "GET /point_of_sale/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2026-09-16 12:13:56,971 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:56] "GET /base/static/img/icons/timesheet_grid.png HTTP/1.1" 200 - 0 0.000 0.009
+2026-09-16 12:13:56,971 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:56] "GET /base/static/img/icons/knowledge.png HTTP/1.1" 200 - 0 0.000 0.008
+2026-09-16 12:13:56,972 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:56] "GET /hr_holidays/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2026-09-16 12:13:56,972 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:56] "GET /website_sale/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.011
+2026-09-16 12:13:56,973 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:56] "GET /mrp/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.009
+2026-09-16 12:13:56,982 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:56] "GET /hr_recruitment/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2026-09-16 12:13:56,983 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:56] "GET /base/static/img/icons/industry_fsm.png HTTP/1.1" 200 - 0 0.000 0.009
+2026-09-16 12:13:56,987 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:56] "GET /data_recycle/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2026-09-16 12:13:56,989 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:56] "GET /hr/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.011
+2026-09-16 12:13:56,990 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:56] "GET /maintenance/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2026-09-16 12:13:56,990 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:56] "GET /marketing_card/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2026-09-16 12:13:56,995 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:56] "GET /base/static/img/icons/helpdesk.png HTTP/1.1" 200 - 0 0.000 0.006
+2026-09-16 12:13:56,995 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:56] "GET /base/static/img/icons/sign.png HTTP/1.1" 200 - 0 0.000 0.009
+2026-09-16 12:13:57,003 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:57] "GET /base/static/img/icons/quality_control.png HTTP/1.1" 200 - 0 0.000 0.006
+2026-09-16 12:13:57,004 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:57] "GET /base/static/img/icons/sale_subscription.png HTTP/1.1" 200 - 0 0.000 0.008
+2026-09-16 12:13:57,006 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:57] "GET /base/static/img/icons/planning.png HTTP/1.1" 200 - 0 0.000 0.006
+2026-09-16 12:13:57,006 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:57] "GET /website_slides/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2026-09-16 12:13:57,008 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:57] "GET /website_event/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2026-09-16 12:13:57,011 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:57] "GET /mail/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.009
+2026-09-16 12:13:57,017 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:57] "GET /contacts/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.008
+2026-09-16 12:13:57,020 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:57] "GET /calendar/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2026-09-16 12:13:57,022 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:57] "GET /base/static/img/icons/mrp_plm.png HTTP/1.1" 200 - 0 0.000 0.010
+2026-09-16 12:13:57,023 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:57] "GET /base/static/img/icons/social.png HTTP/1.1" 200 - 0 0.000 0.008
+2026-09-16 12:13:57,026 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:57] "GET /base/static/img/icons/hr_appraisal.png HTTP/1.1" 200 - 0 0.000 0.010
+2026-09-16 12:13:57,028 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:57] "GET /fleet/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.010
+2026-09-16 12:13:57,036 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:57] "GET /im_livechat/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.009
+2026-09-16 12:13:57,036 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:57] "GET /base/static/img/icons/marketing_automation.png HTTP/1.1" 200 - 0 0.000 0.013
+2026-09-16 12:13:57,040 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:57] "GET /base/static/img/icons/appointment.png HTTP/1.1" 200 - 0 0.000 0.010
+2026-09-16 12:13:57,041 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:57] "GET /survey/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.010
+2026-09-16 12:13:57,044 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:57] "GET /repair/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.010
+2026-09-16 12:13:57,046 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:57] "GET /base/static/img/icons/web_mobile.png HTTP/1.1" 200 - 0 0.000 0.013
+2026-09-16 12:13:57,052 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:57] "GET /hr_attendance/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.010
+2026-09-16 12:13:57,052 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:57] "GET /mass_mailing_sms/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.008
+2026-09-16 12:13:57,056 1 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2026-09-16 12:13:57,060 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:57] "GET /base/static/img/icons/stock_barcode.png HTTP/1.1" 200 - 0 0.000 0.013
+2026-09-16 12:13:57,062 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:57] "GET /hr_skills/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.009
+2026-09-16 12:13:57,062 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:57] "GET /project_todo/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.013
+2026-09-16 12:13:57,064 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:57] "GET /base/static/img/icons/voip.png HTTP/1.1" 200 - 0 0.000 0.011
+2026-09-16 12:13:57,069 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:57] "GET /lunch/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.011
+2026-09-16 12:13:57,069 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:57] "GET /website_hr_recruitment/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.009
+2026-09-16 12:13:57,072 1 INFO ? werkzeug: 172.19.0.1 - - [16/Sep/2026 12:13:57] "GET /base/static/img/icons/sale_amazon.png HTTP/1.1" 200 - 0 0.000 0.005
+2026-09-16 12:14:33,696 1 INFO hola odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) starting 
+2026-09-16 12:14:33,851 1 INFO hola odoo.addons.base.models.ir_attachment: filestore gc 14 checked, 0 removed 
+2026-09-16 12:14:33,859 1 INFO hola odoo.addons.base.models.res_users: GC 'res.users.apikeys' delete 0 entries 
+2026-09-16 12:14:33,958 1 INFO hola odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2026-09-16 12:14:33,976 1 INFO hola odoo.addons.base.models.res_users: GC 'auth_totp.device' delete 0 entries 
+2026-09-16 12:14:34,003 1 INFO hola odoo.addons.api_doc.models.ir_attachment: GC'd 0 /doc cached index 
+2026-09-16 12:14:34,025 1 INFO hola odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2026-09-16 12:14:34,027 1 INFO hola odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2026-09-16 12:14:34,030 1 INFO hola odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) fully done (#loop 1; done 0; remaining 0; duration 0.33s) 
+2026-09-16 12:14:34,035 1 INFO hola odoo.addons.base.models.ir_cron: Job 'Base: Portal Users Deletion' (2) starting 
+2026-09-16 12:14:34,044 1 INFO hola odoo.addons.base.models.ir_cron: Job 'Base: Portal Users Deletion' (2) fully done (#loop 1; done 0; remaining 0; duration 0.01s) 
+2026-09-16 12:15:34,132 1 INFO hola odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) starting 
+2026-09-16 12:15:34,178 1 INFO hola odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2026-09-16 12:15:34,214 1 INFO hola odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2026-09-16 12:15:34,222 1 INFO hola odoo.addons.base.models.res_users: GC 'res.users.apikeys' delete 0 entries 
+2026-09-16 12:15:34,229 1 INFO hola odoo.addons.base.models.res_users: GC 'auth_totp.device' delete 0 entries 
+2026-09-16 12:15:34,232 1 INFO hola odoo.addons.api_doc.models.ir_attachment: GC'd 0 /doc cached index 
+2026-09-16 12:15:34,245 1 INFO hola odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2026-09-16 12:15:34,305 1 INFO hola odoo.addons.base.models.ir_attachment: filestore gc 0 checked, 0 removed 
+2026-09-16 12:15:34,313 1 INFO hola odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) fully done (#loop 1; done 0; remaining 0; duration 0.18s) 
+2026-09-17 10:26:20,264 1 INFO ? odoo.service.server: Initiating shutdown 
+2026-09-17 10:26:20,269 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2026-09-17 10:26:20,356 1 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 4 connections  
+2026-09-17 10:26:20,367 1 INFO ? odoo.service.server: cron0 max age (0s) reached, releasing connection. 
+2026-09-17 10:26:20,375 1 INFO ? odoo.service.server: cron1 max age (0s) reached, releasing connection. 

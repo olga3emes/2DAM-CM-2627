@@ -1,0 +1,5 @@
+odoo/postgresql
+odoo/etc/sessions
+odoo/etc/filestore
+odoo/entrypoint.sh
+odoo/odoo17.yml
