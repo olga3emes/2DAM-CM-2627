@@ -26,8 +26,7 @@ CloudWatch: "Monitorización - como si me creo un monitor de recursos en mi orde
 
 CloudTrail: """"LOGS"""" -Auditoría - como si me creo un registro de auditoría en mi ordenador". AWS CloudTrail es un servicio que permite a los usuarios registrar y supervisar la actividad de la cuenta de AWS, proporcionando un historial de eventos y acciones realizadas en los recursos de AWS para fines de auditoría y cumplimiento.
 
-EC2 Autoscaling: "Escalado automático - como si me creo un script que se ejecuta en la nube". Amazon EC2 Auto Scaling es un servicio que permite a los usuarios ajustar automáticamente la capacidad de sus instancias EC2 en función de la demanda, asegurando un rendimiento óptimo y costos eficientes.
-
+EC2 Autoscaling: "Escalado automático - como si me creo un script que se ejecuta en la nube y me duplica los servidores o me los para". Amazon EC2 Auto Scaling es un servicio que permite a los usuarios ajustar automáticamente la capacidad de sus instancias EC2 en función de la demanda, asegurando un rendimiento óptimo y costos eficientes.
 
 Para crear una Well-Architected Application, se deben tener en cuenta los siguientes pilares:
 
