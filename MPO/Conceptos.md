@@ -47,3 +47,15 @@ ACL: "Listas de control de acceso". Access Control Lists (ACLs) son mecanismos d
 
 Grupos de seguridad: "Firewall". Los grupos de seguridad son conjuntos de reglas de firewall que controlan el tráfico entrante y saliente hacia las instancias EC2, proporcionando una capa adicional de seguridad.
 
+
+## Laboratorio IAM <img src="img/iam.jpg" height="50"  alt="IAM Lab">
+
+- Usuarios: personas que acceden a los recursos de la nube. 
+
+- Políticas: permisos de acceso a recursos (JSON).
+
+- Grupos: añadimos unas políticas a un grupo y añadimos usuarios al grupo. Los usuarios heredan las políticas del grupo.
+
+- Roles: un rol es un conjunto de permisos que se pueden asignar a un usuario o servicio para que pueda acceder a recursos específicos. Los roles son útiles para delegar permisos sin necesidad de compartir credenciales.
+
+Tenemos conflicto de permisos, por ejemplo, un usuario tiene permisos de lectura y escritura en un recurso, pero también tiene una política que le niega el acceso a ese recurso. En este caso, la política de denegación prevalece sobre la política de permiso, y el usuario no podrá acceder al recurso.
