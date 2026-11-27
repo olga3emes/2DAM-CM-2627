@@ -9,7 +9,10 @@ EC2, S3, RDS, Lambda, CloudFront, VPC, IAM, CloudWatch, CloudTrail.
 
 EC2: "Los servidores - como si me creo una MV". Elastic Compute Cloud, es un servicio de computación en la nube que permite a los usuarios ejecutar instancias de servidores virtuales en la infraestructura de AWS.
 
-S3: "Almacenamiento de objetos - como si me creo un disco duro - Google Drive cateto". Simple Storage Service, es un servicio de almacenamiento de objetos que permite a los usuarios almacenar y recuperar datos en la nube de manera escalable y segura.
+## Laboratorio S3 
+<img src="img/s3.png" height="50"  alt="S3 Lab">
+
+**S3:** "Almacenamiento de objetos - como si me creo un disco duro - Google Drive cateto". Simple Storage Service, es un servicio de almacenamiento de objetos que permite a los usuarios almacenar y recuperar datos en la nube de manera escalable y segura.
 
 RDS: "Base de datos - como si me creo una base de datos en mi ordenador". Relational Database Service, es un servicio administrado de bases de datos relacionales que facilita la configuración, operación y escalado de bases de datos en la nube.
 
@@ -47,15 +50,12 @@ ACL: "Listas de control de acceso". Access Control Lists (ACLs) son mecanismos d
 
 Grupos de seguridad: "Firewall". Los grupos de seguridad son conjuntos de reglas de firewall que controlan el tráfico entrante y saliente hacia las instancias EC2, proporcionando una capa adicional de seguridad.
 
+Auri, Puri, Nuri: Modelo de reserva de instancias en AWS. Auri (Aurora Reserved Instances)Las instancias reservadas con pago total anticipado (AURI)  mayor descuento
+Las instancias reservadas con pago parcial anticipado (PURI) descuentos más bajos
+Las instancias reservadas sin pago anticipado (NURI) descuentos aún menores
+ se refiere a instancias reservadas de Amazon Aurora, Puri (Provisioned Reserved Instances) se refiere a instancias reservadas provisionadas, y Nuri (Non-Totally Reserved Instances) se refiere a instancias no son totalmente reservadas.
 
-## Laboratorio IAM <img src="img/iam.jpg" height="50"  alt="IAM Lab">
+ Well-Architected: "como si le pregunto a mi profe cómo tengo que hacerlo" es un conjunto de buenas prácticas y principios que ayudan a los arquitectos de soluciones a diseñar, construir y mantener aplicaciones en la nube de manera eficiente, segura y escalable. El marco se basa en cinco pilares fundamentales.
 
-- Usuarios: personas que acceden a los recursos de la nube. 
+ 
 
-- Políticas: permisos de acceso a recursos (JSON).
-
-- Grupos: añadimos unas políticas a un grupo y añadimos usuarios al grupo. Los usuarios heredan las políticas del grupo.
-
-- Roles: un rol es un conjunto de permisos que se pueden asignar a un usuario o servicio para que pueda acceder a recursos específicos. Los roles son útiles para delegar permisos sin necesidad de compartir credenciales.
-
-Tenemos conflicto de permisos, por ejemplo, un usuario tiene permisos de lectura y escritura en un recurso, pero también tiene una política que le niega el acceso a ese recurso. En este caso, la política de denegación prevalece sobre la política de permiso, y el usuario no podrá acceder al recurso.
